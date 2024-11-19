@@ -6,10 +6,10 @@ import ParkingSpace from './Components/ParkingSpace';
 function App() {
   return (
     <div className="App">
-        <Navbar> </Navbar>
-        <Login></Login>
-        <ParkingSpace></ParkingSpace>
-        <Footer> </Footer>
+      <Navbar> </Navbar>
+      <Login> </Login>
+      <ParkingSpace> </ParkingSpace>
+      <Footer> </Footer>
     </div>
   );
 }
