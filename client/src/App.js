@@ -1,15 +1,17 @@
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
-import Login from './Components/Login';
-import ParkingSpace from './Components/ParkingSpace';
+import React from 'react';
+import './App.css';
+import Navbar from "./Component/Navbar";
+import Footer from "./Component/Footer";
+import SignUp from "./Component/SignUp";
+import ParkingBooking from "./Component/ParkingBooking";
 
 function App() {
   return (
     <div className="App">
-      <Navbar> </Navbar>
-      <Login> </Login>
-      <ParkingSpace> </ParkingSpace>
-      <Footer> </Footer>
+      <Navbar />
+      <SignUp/>
+      <ParkingBooking />
+      <Footer />
     </div>
   );
 }
